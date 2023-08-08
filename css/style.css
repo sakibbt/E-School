@@ -1,0 +1,240 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Poppins', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+	 width: 100%;
+	 padding: 10px 0px;
+	 background: #F0FFF0 ;
+}
+.menu .navbar-expand-lg .navbar-nav .nav-link{
+	margin: 0px 0px 0px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+.menu .navbar-expand-lg .navbar-nav .nav-link:hover, .menu .navbar-expand-lg .navbar-nav .nav-link:focus{
+	 color: #21B573;
+}
+.menu .btn-success{
+	padding: 8px 20px;
+	border-radius: 35px;
+	background: #21B573;
+	color: #fff;
+	margin: 0px 0px 0px 30px;
+	border: 1px solid #21B573;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+
+}
+.menu .btn-success:hover, .menu .btn-success:focus{
+	background: transparent;
+	color: #21B573;
+	border: 1px solid #21B573;
+}
+.banner{
+	width: 100%;
+	padding: 70px 0px;
+}
+.banner .inner-banner{  
+	width: 100%;
+	padding: 50px 0px 0px;
+
+}
+.banner .inner-banner h4{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #FD511A ;
+
+}
+.banner .inner-banner h1{
+	font-size: 48px ;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #000 ;
+	margin: 20px 0px;
+
+}
+.banner .inner-banner h1 span{ 
+	color: #21B573;
+
+} 
+.banner .inner-banner p{
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #000;
+}
+.banner .inner-banner .btn-success{
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 35px;
+	background: #21B573;
+	color: #fff;
+	margin: 20px 0px 0px 0px;
+	border: 1px solid #21B573;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+
+}
+.banner .inner-banner .btn-success:hover, .banner .inner-banner .btn-success:focus{
+	background: transparent;
+	color: #21B573;
+	border: 1px solid #21B573;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	background: #F8FFFB;
+	border-radius: 10px;
+}
+.feature .inner-feature img{
+	width: 66%;
+	height: 85px;
+	margin: 0px 0px 20px;
+}
+.feature .inner-feature h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px;
+} 
+.feature .inner-feature p{
+	font-size: 14px;
+	margin: 0px;
+}
+.feature .inner-feature:hover{
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.course{
+	width: 100%;
+	padding: 50px 0px;
+}
+.course h1{
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0px 0px 60px;
+}
+.course .card{
+	padding: 25px;
+	border: 0px;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 15px;
+}
+.course .card .card title{
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #000;
+}
+.course .card .card body{
+	padding: 20px 0px;
+}
+.course .card .card body .card text{
+	font-size: 14px;
+	line-height: 1.7em;
+}
+.course .card .card-body .btn-success{
+	display: inline-block;
+	padding: 7px 25px;
+	border-radius: 35px;
+	background: #21B573;
+	color: #fff;
+    margin: 10px 0px 40px 0px;
+	border: 1px solid #21B573;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.course .card .card-body .btn-success: hover, .course .card .card-body .btn-success: focus{
+
+	background: transparent;
+	color: #21B573;
+	border: 1px solid #21B573;
+}
+.course .card .date{
+	font-size: 14px;
+	margin: 0px;
+}
+.course .card .seat{
+    font-size: 14px;
+    text-align: right;
+}
+.date img, .seat img{
+	width: 14px;
+}
+.testimonial{
+	width: 100%;
+	padding: 40px 0px 80px;
+}
+.testimonial h1{
+ font-size: 48px;
+ font-weight: 700;
+ line-height: 1.2em;
+ margin: 0px 0px 60px;
+ text-align: center;
+}
+.client-img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+.testimonial p{
+	font-size: 16px;
+	line-height: 1.7em;
+}
+.footer{
+	width: 100%;
+	padding:  80px 0px;
+	background: #000;
+}
+.footer p{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #fff;
+}
+.footer ul{
+	display: block;
+}
+.footer ul li{
+	list-style: none;
+	display: block;
+}
+.footer ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #fff;
+	margin: 0px 0px 5px;
+}
+.footer ul li .active{
+	font-weight: 700;
+}
+.footer .copyright{
+	text-align: center;
+	color: #CDCDCD;
+	padding: 60px 0px 0px;
+}
+
