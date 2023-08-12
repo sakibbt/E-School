@@ -110,8 +110,8 @@ a, a:hover{
 	border-radius: 10px;
 }
 .feature .inner-feature img{
-	width: 66%;
-	height: 85px;
+	width: 45%;
+	height: 100px;
 	margin: 0px 0px 20px;
 }
 .feature .inner-feature h4{
@@ -206,7 +206,7 @@ a, a:hover{
 }
 .footer{
 	width: 100%;
-	padding:  80px 0px;
+	padding:  80px 0px 10px;
 	background: #000;
 }
 .footer p{
